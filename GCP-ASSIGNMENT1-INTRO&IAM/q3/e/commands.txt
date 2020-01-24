@@ -1,0 +1,4 @@
+Question was to delete the objects inside bucket
+
+
+gsutil rm gs://rakesh-bucket-1/image.png - This command deletes the file image.png from the bucket rakesh-bucket-1
