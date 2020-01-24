@@ -1,0 +1,5 @@
+Question was to download files from bucket to local google cloud sdk 
+gsutil cp gs://rakesh-bucket-1/image.png ./
+
+This command downloads image.png from rakesh-bucket-1 to local working directory by ./(it means it downloads it into our current working directory)
+
