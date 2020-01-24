@@ -1,0 +1,7 @@
+gcloud compute disks resize rakesh-reddy --zone=us-central1-a --size 50 -  This command resizes the disk 
+
+gcloud compute instances stop rakesh-reddy --zone=us-central1-a   -  This command stops our instance
+
+gcloud compute instances starts rakesh-reddy --zone=us-central1-a - This command starts our instance
+
+
