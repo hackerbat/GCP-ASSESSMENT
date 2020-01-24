@@ -1,0 +1,6 @@
+question - Transfer a local file from your pc to bucket
+
+Firstly created a file in local google cloud shell named upload.py
+
+Then by using (gsutil cp upload.py gs://rakesh-bucket-1) we  upload file to rakesh-bucket-1
+
