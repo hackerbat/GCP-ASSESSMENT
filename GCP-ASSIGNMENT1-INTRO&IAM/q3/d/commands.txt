@@ -1,0 +1,6 @@
+The question is to list objects inside bucket
+
+gsutil ls gs://rakesh-bucket-1/
+
+This command lists all the objects inside rakesh-bucket-1
+
