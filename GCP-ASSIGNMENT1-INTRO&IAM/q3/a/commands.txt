@@ -1,0 +1,3 @@
+The question is to Transfer file from one bucket to another
+
+gsutil cp gs://rakesh-bucket-1/image.png gs://rakesh-bucket-2 - Copying image.png file from rakesh-bucket-1 to rakesh-bucket-2
