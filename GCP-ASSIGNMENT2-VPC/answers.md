@@ -13,6 +13,7 @@
 2. Name the instance with desired name and configure it in different region compared to previous instance.
 3. In **Networking Interface** select **Default** Network.
 4. Choose **External Ip** as **none**.
+![](GCP-ASSIGNMENT2-VPC/images/4.png)
 
 ### Q3 - Configure NAT so that instance B can access internet.
 Use the gcloud CLI in cloud shell for creating NAT in CLOUD NAT.
