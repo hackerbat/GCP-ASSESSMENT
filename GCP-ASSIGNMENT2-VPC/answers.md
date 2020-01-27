@@ -14,7 +14,7 @@
 3. In **Networking Interface** select **Default** Network.
 4. Choose **External Ip** as **none**.
 
-###Q3 - Configure NAT so that instance B can access internet.
+### Q3 - Configure NAT so that instance B can access internet.
 Use the gcloud CLI in cloud shell for creating NAT in CLOUD NAT.
 
 * Creating a CLOUD router for NAT
