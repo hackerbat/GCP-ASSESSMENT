@@ -33,7 +33,7 @@ Use the gcloud CLI in cloud shell for creating NAT in CLOUD NAT.
 		\--auto-allocate-nat-external-ips
 		
 ### Q4 - SSH into private instance using public instance		
-1. SSH into public instance.
+1.SSH into public instance.
 
 2.In terminal of public instance type - ssh (private instance name) (This will take us to the terminal of private instance).
 
