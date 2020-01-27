@@ -16,9 +16,9 @@
 	2. Uptime check : Violates when Any monitoring.googleapis.com/uptime_check/check_passed stream is above a threshold of 1 for greater than 1 minute.
 
 * **Policy Screenshots** :
-	1. CPU Utilization :
+	1. **CPU Utilization** :
 	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/cpu-utilization.png)
-	2. Uptime Check :
+	2. **Uptime Check** :
 	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/uptime-check.png)
 * **Email Screenshots** :
 	1. CPU Utilization :
