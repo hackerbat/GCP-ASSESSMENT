@@ -17,14 +17,14 @@
 
 * **Policy Screenshots** :
 	1. CPU Utilization :
-	![]()
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/cpu-utilization.png)
 	2. Uptime Check :
-	![]()
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/uptime-check.png)
 * **Email Screenshots** :
 	1. CPU Utilization :
-	![]()
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/email_utilization.png)
 	2. Uptime Check :
-	![]()
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/email-uptime-check.png)
 
 ### Q3 - Create a Cloud Function to convert the pub/sub message to json file and store it in GCS bucket.
 
