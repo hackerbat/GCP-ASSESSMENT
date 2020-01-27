@@ -31,4 +31,9 @@ Use the gcloud CLI in cloud shell for creating NAT in CLOUD NAT.
 		\--router (cloud router name) 
 		\--nat-all-subnet-ip-ranges 
 		\--auto-allocate-nat-external-ips
-    
+		
+### Q4 - SSH into private instance using public instance		
+1. SSH into public instance.
+2.In terminal of public instance type - ssh (private instance name) (This will take us to the terminal of private instance)
+3.In private instance's terminal type - sudo apt-get install nginx
+
