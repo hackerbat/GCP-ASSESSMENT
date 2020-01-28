@@ -49,6 +49,9 @@
 	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/email_utilization.png)
 	2. **Uptime Check** :
 	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/email-uptime-check.png)
+	3. **Check passed after sometime** :
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/check_passed.png)
+
 	
 
 ### Q3 - Create a Cloud Function to convert the pub/sub message to json file and store it in GCS bucket.
