@@ -55,3 +55,42 @@
 	
 
 ### Q3 - Create a Cloud Function to convert the pub/sub message to json file and store it in GCS bucket.
+* Steps :
+         
+       1. Create a pub/sub topic to publish required messages.
+       2. Create a cloud function and write the logic inside **main.py** which contains extracting message from topic, decoding it and putting it into a file test-file.json inside bucket.
+       3. Publish the required message in the topic.
+       4. Open your bucket and see the file with the message extracted from the topic in PUB/SUB.
+       5. Write requirements (gcloud) inside **requirements.txt**.
+
+* Screenshots :
+		
+	1. Pub/Sub Topic:
+	 ![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/topic.png)
+	
+	2. Cloud Function :
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/cloud-function.png)
+	
+	3. Logs of Cloud Function :
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/logs-cf.png)
+	
+	4. test-file.json inside Bucket :
+	![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-CLOUDFUNCTION-STACKDRIVER/images/file-in-bucket.png) 
+	
+* Code :
+	
+		import base64
+		from gcloud import storage
+
+		def hello_pubsub(event, context):
+    	"""Triggered from a message on a Cloud Pub/Sub topic.
+    	Args:
+         event (dict): Event payload.
+         context (google.cloud.functions.Context): Metadata for the
+         event."""
+         
+    	pubsub_message = base64.b64decode(event['data']).decode('utf-8')
+    	client = storage.Client()
+    	bucket = client.get_bucket('rakeshreddy-bucket-1')
+    	blob = bucket.blob('test-file.json')
+    	blob.upload_from_string(pubsub_message)
