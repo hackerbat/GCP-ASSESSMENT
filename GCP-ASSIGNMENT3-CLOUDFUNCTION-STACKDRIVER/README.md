@@ -7,14 +7,12 @@
 **Steps** :
 
 1. Go to **Stackdriver Logging > Exports** in the Cloud Console.
-
 2. Select an existing Google Cloud project at the top of the page.
 3. If you have not yet configured any log sinks, the message No Log sinks are configured is displayed. Then create a **sink** with and select **Sink Service** as **BigQuery** and **Sink Destination** also as **BigQuery**.
 4. Steps to create a Sink : 
 
-      * 	To create an export sink, click Create Export at the top of the Logs Exports page. You can also do this at the top of the Logs Viewer page.
+      * To create an export sink, click Create Export at the top of the Logs Exports page. You can also do this at the top of the Logs Viewer page.
       *  To create a sink, fill in the Edit Export panel as follows:
-      			
       	1. **(filter):** Enter an advanced logs query.
       	2. **Sink name:** Enter the identifier you want to assign to the sink.
       	3. **Sink Service:** Select the sink service as BigQuery.
