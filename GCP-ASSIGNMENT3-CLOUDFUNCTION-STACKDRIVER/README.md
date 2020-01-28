@@ -13,7 +13,8 @@
 
       * To create an export sink, click Create Export at the top of the Logs Exports page. You can also do this at the top of the Logs Viewer page.
       *  To create a sink, fill in the Edit Export panel as follows:
-      	1. **(filter):** Enter an advanced logs query.
+      	
+	1. **(filter):** Enter an advanced logs query.
       	2. **Sink name:** Enter the identifier you want to assign to the sink.
       	3. **Sink Service:** Select the sink service as BigQuery.
       	4. **Sink Destination:** Select sink Destination as BigQuery.
