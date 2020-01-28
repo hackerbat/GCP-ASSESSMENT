@@ -57,11 +57,11 @@
 ### Q3 - Create a Cloud Function to convert the pub/sub message to json file and store it in GCS bucket.
 * Steps :
          
-       1. Create a pub/sub topic to publish required messages.
-       2. Create a cloud function and write the logic inside **main.py** which contains extracting message from topic, decoding it and putting it into a file test-file.json inside bucket.
-       3. Publish the required message in the topic.
-       4. Open your bucket and see the file with the message extracted from the topic in PUB/SUB.
-       5. Write requirements (gcloud) inside **requirements.txt**.
+   1. Create a pub/sub topic to publish required messages.
+   2. Create a cloud function and write the logic inside **main.py** which contains extracting message from topic, decoding it and putting it into a file test-file.json inside bucket.
+   3. Publish the required message in the topic.
+   4. Open your bucket and see the file with the message extracted from the topic in PUB/SUB.
+   5. Write requirements (gcloud) inside **requirements.txt**.
 
 * Screenshots :
 		
