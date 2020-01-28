@@ -15,10 +15,14 @@
       *  To create a sink, fill in the Edit Export panel as follows:
       	
 	1. **(filter):** Enter an advanced logs query.
-      	2. **Sink name:** Enter the identifier you want to assign to the sink.
-      	3. **Sink Service:** Select the sink service as BigQuery.
-      	4. **Sink Destination:** Select sink Destination as BigQuery.
-      	5. Click **Update Sink** to create the sink.   		 				
+      	
+	2. **Sink name:** Enter the identifier you want to assign to the sink.
+      	
+	3. **Sink Service:** Select the sink service as BigQuery.
+      	
+	4. **Sink Destination:** Select sink Destination as BigQuery.
+      	
+	5. Click **Update Sink** to create the sink.   		 				
 
 ### Q2 - Configure Apache2 HTTP server on a GCE VM instance and setup an email alert notification which triggers when the health check of the instance fails.
 * Create an instance and install apache2 on it.
