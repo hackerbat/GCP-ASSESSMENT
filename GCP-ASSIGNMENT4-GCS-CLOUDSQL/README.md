@@ -41,7 +41,7 @@ Screenshots :
 
 * After Downloading :
 
-![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT4-GCS-CLOUDSQL/images/after-downloading.png)
+![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT4-GCS-CLOUDSQL/images/after-downloading-1.png)
 
 Code :
 		
