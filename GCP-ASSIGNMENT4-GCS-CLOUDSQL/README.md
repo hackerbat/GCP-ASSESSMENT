@@ -16,7 +16,7 @@ Screenshots :
 
 * Static Website :
 
-![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT3-GCS-CLOUDSQL/images/static-website.png) 
+![](https://raw.githubusercontent.com/hackerbat/GCP-ASSESSMENT/master/GCP-ASSIGNMENT4-GCS-CLOUDSQL/images/static-website.png) 
 
 ### Q2 - Create a folder structure in the bucket as follows (manually) : 
  	-folder1
